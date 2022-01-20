@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgPlanet: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //S350
         slider.value = 0
         configurSetUI()
         configurEnd()
